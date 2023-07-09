@@ -413,8 +413,17 @@ body {
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  .footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  .menu {
+    display: flexbox;
+    position: relative;
+  }
+
+  .menu:hover {
+    color: #43085a;
+  }
+  .social-links {
+    display: flexbox;
+    margin-top: 5%;
+    margin-right: 5%;
   }
 }
